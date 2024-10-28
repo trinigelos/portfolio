@@ -1,0 +1,31 @@
+
+  
+  .plusSign {
+    padding: 0;
+    animation: heartbeat 1s ease-in-out infinite;
+    margin: 0;
+    /* color: white; */
+    background-color: transparent;
+    border: none;
+
+
+  }
+  .plus {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    animation: none;
+  }
+  
+  .rotate-icon {
+    transform: rotate(45deg);
+    animation: none;
+  }
+  
+  .expanded .rotate-icon {
+    transform: rotate(0);
+    animation: none;
+  }
+
+  

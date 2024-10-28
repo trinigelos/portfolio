@@ -1,0 +1,42 @@
+.coding-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36); 
+    background: radial-gradient(circle, rgba(76, 76, 76, 0.579) 30%, rgba(57, 57, 57, 0.29) 100%, rgba(75,75,75,0.6504726890756303) 10%); 
+}
+
+h2{
+    padding-top:3rem ;
+    
+}
+
+.photo-container{
+display: flex;
+flex-direction: row;
+padding: 2rem;
+
+}
+
+.projects{
+    height: 17rem;
+    width: 17rem;
+    background-color: rgba(38, 38, 38, 0.37);
+    border: 3px solid rgb(34, 34, 34);
+    margin: 0 20px;
+}
+
+.projects:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.one{
+    background-image: url("../../assets/olympus-home.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 99;
+}

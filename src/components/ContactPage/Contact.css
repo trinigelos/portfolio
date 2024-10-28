@@ -1,0 +1,135 @@
+.contact-form-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ 
+
+}
+
+
+.left>h2{
+    font-size: 8rem;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    line-height: 0px;
+
+}
+
+.lets{
+position: absolute;
+top: 9rem;
+left: 7rem;
+letter-spacing: -5px;
+}
+
+.get{
+  top: 10rem;
+}
+
+.touch{
+  position: absolute;
+  left: 7rem;
+  top: 23rem;
+}
+
+.right{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+.form-group {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 80vw;
+
+  }
+  
+
+ textarea{
+    margin-top: 2rem;
+    border-radius: 4px;
+    border: none;
+    width: 30vw;
+    height: 30vh;
+    background: linear-gradient(to right, rgba(57, 57, 57, 0.462) 0%,rgb(78, 78, 78) 50%,rgb(55, 55, 55),rgb(34, 34, 34)90%);
+    resize: both;
+    color: white;
+  }
+
+  textarea:hover{
+    transform: scale(1.1);
+    transition: 3s ease-in;
+    background: linear-gradient(to left, rgb(56,56,56) 10%, rgb(105, 105, 105) 10%, );
+  }
+
+
+.bn13{
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+input {
+    background: 0;
+    color: #ffffff;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    max-width: 400px;
+    font-size: 1.2em;
+    font-family: monospace;
+    width: 80vw;
+    transition: padding 0.3s 0.2s ease;
+  }
+  
+  input:focus {
+    padding-bottom: 5px;
+  }
+  
+  /* sibling magic ;o */
+  input:focus + .line:after {
+    transform: scaleX(1);
+  }
+  
+  .field {
+    position: relative;
+    margin: 0.5rem;
+  }
+  
+  .field>.line {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0 0;
+    position: absolute;
+    bottom: -7px;
+    background: #2a2a2a;
+  }
+  
+  .field .line:after {
+    content: " ";
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    background: rgb(180, 241, 230);
+  }
+  .placeholder{
+    padding: 10px;
+  }

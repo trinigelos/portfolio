@@ -1,0 +1,120 @@
+
+.parallax{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: url("../../../assets/photos-about/background-box.png");
+
+
+}
+
+
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    display: flex;
+    
+}
+
+.box>h1{
+    flex-direction: row;
+}
+
+.box> p{
+padding: 3rem;
+font-size: 1.3rem;
+justify-content: center;
+align-items: flex-start ;
+display: flex;
+position: relative;
+flex-direction: column;
+flex: 1;
+}
+
+p>span{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 5rem;
+
+}
+
+
+
+.firstbox{
+    flex: 1;
+    position: relative;
+    height: 100%;
+}
+
+.firstbox>*{
+    width: 50%;
+    height: 50% ;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.firstbox>*:hover{
+    transform: scale(1.2);
+    transition: ease-in 1s;
+    z-index: 99;
+}
+
+.firstbox>:first-child{
+    top: 1rem;
+    right: 2rem;
+    height: 70%;
+}
+
+.firstbox>:nth-child(2){
+    width: 70%;
+    height: 50%;
+    bottom: 1rem;
+    right: 3rem;
+}
+.firstbox>:nth-child(3){
+    top: 2.5rem;
+    left: -3rem;
+    height: 70%;
+}
+
+.second>:first-child{
+    right: -2rem;
+    top: 10rem;
+}
+
+.second>:nth-child(2){
+    top: -1rem;
+    right: -1rem;
+}
+.second>:nth-child(3){
+    top: 8rem;
+left: 3rem;
+}
+
+.fourth>:nth-child(1), .fourth>:nth-child(2){
+    width: 70%;
+    height: 50%;
+}
+
+.fourth>:nth-child(2){
+    right:8rem;
+}
+
