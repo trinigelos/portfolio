@@ -9,6 +9,7 @@ import { appDev } from './Database';
 import Bar from '../Bar';
 import olympus from "../../../assets/olympus-gym.png";
 import signup from "../../../assets/signup-quotagram.png";
+import allBeers from "../../../assets/photos-about/allBeers.png";
 
 
 
@@ -61,6 +62,9 @@ return (
 
   {/* Second Section - Projects */}
 
+    
+
+
   <div className="second-child">
     <div className='h1projects'><h1 >MY PROJECTS</h1></div>
       <div className="project-cards">
@@ -68,16 +72,18 @@ return (
         {/* first card project */}
   <div className='olympus-container-card'>
         <a href="https://trinigelos.github.io/Olympus/" target="_blank" rel="noopener noreferrer">
-            
     <img className='olympus-img' src={olympus} alt="Website for a local gym" />
+            
             </a>
             
     <h3>Website for a local gym</h3>
   </div>
            {/* second card project */}
         <div className='signup-container-card'>
-          <img className='login-img' src={signup} alt="" />
-          <h3>Login & Signup to implement Databases: MongoDB and Authentication</h3>
+        <a href="    https://trinigelos.github.io/lab-react-FullStackDrinks/" target="_blank" rel="noopener noreferrer">
+              <img className='login-img' src={allBeers} alt="" />
+              </a>
+          <h3>Beers catalogue using HEROKU API as server-side</h3>
         </div>
         </div>
 

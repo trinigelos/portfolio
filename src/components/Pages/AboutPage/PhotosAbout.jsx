@@ -25,3 +25,4 @@ export const cuevas3Data = { src: Cuevas3, width: 3024, height: 4032 };
 export const ruta40Data = { src: ruta40, width: 7008, height: 4672 };
 export const uruguayData = { src: uruguay, width: 4608, height: 2592 };
 export const llamaData = { src: Llama, width: 4896, height: 3264 };
+

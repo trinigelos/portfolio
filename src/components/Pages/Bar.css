@@ -36,3 +36,36 @@
     cursor: pointer;
     color: rgb(82, 82, 134);
 }
+
+
+
+@media (max-width: 1024px) {
+  .bar-container {
+      gap: 2rem;
+      padding: 0.5rem;
+  }
+
+  .bar {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bar-container {
+      padding: 0.5rem;
+  }
+
+  .bar {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bar-container {
+      padding: 0.5rem;
+  }
+
+  .bar {
+      font-size: 0.9rem;
+  }
+}

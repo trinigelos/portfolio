@@ -65,3 +65,46 @@
     text-align: right;
     text-decoration: none;
   }
+
+
+  @media (max-width: 1024px) {
+    .home-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1-container,
+    .plusSign-container {
+        flex: unset;
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+    }
+    .trinidad-text {
+        font-size: 5rem;
+        margin: 5rem 0;
+    }
+    .plusSign-container {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .trinidad-text {
+        font-size: 2.5rem;
+        margin: 3rem 0;
+    }
+    .plusSign-container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .trinidad-text {
+        font-size: 4rem;
+        margin: 2rem 0;
+    }
+    .plusSign-container {
+        padding: 1rem;
+    }
+}

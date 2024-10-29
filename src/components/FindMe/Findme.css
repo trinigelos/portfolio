@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 90vh;
+    height: 100vh;
 
 }
 
@@ -76,3 +76,41 @@
   .socialmedia a:visited {
     color: inherit;
   }
+
+  @media (max-width: 1024px) {
+   .title-container{
+    padding: 0;
+    margin: 0;
+   }
+    .socialmedia>div {
+ display: flex;
+ flex-direction: column;
+ margin: 0;
+ padding: 0;
+ gap: 0;
+    }
+    .media{
+position: static;
+font-size: 5rem;
+padding: 0;
+margin: 1.5rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  
+    .media{
+        font-size: 3rem;
+          }
+        
+}
+
+@media (max-width: 480px) {
+    
+
+    .media{
+        font-size: 2rem;
+    }
+}

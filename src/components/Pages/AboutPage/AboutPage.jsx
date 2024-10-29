@@ -28,7 +28,7 @@ return (
             <p><span>A LITTLE INTRODUCTION</span>Hey, I'm Trinidad, originally from Messi's land. According to my ID,
                 I'm 24, but I've honestly lived enough to rival a time-traveler. Explored the humanities scene at
                 Colegio Nacional de Monserrat, where I learnt mostly discipline and critical thinking.</p>
-            <div className='firstbox'>
+            <div className='firstbox media-responsive-first-element'>
                 <img src={photoTriniData.src} alt="Trini" width={photoTriniData.width} height={photoTriniData.height} />
                 <img src={photoTrini2Data.src} alt="Trini" width={photoTrini2Data.width}
                     height={photoTrini2Data.height} />
@@ -37,8 +37,8 @@ return (
         </div>
     </div>
     <div className="card two">
-        <div className='box'>
-            <div className="firstbox second">
+        <div className='box box-three'>
+            <div className="firstbox second ">
                 <img src={matterhornData.src} alt="Trini" width={matterhornData.width} height={matterhornData.height} />
                 <img src={jujuyData.src} alt="Trini" width={jujuyData.width} height={jujuyData.height} />
                 <img src={cuevas3Data.src} alt="Trini" width={cuevas3Data.width} height={cuevas3Data.height} />
@@ -51,14 +51,14 @@ return (
         </div>
     </div>
     <div className="card three">
-        <div className='box'>
-            <p><span>LEVELING UP:</span>My love for photography grew as I worked for hotels and bars, managing Instagram accounts and Airbnb
+        <div className='box '>
+            <p ><span>LEVELING UP:</span>My love for photography grew as I worked for hotels and bars, managing Instagram accounts and Airbnb
                 places.
                 Then, my brother introduced me to web development. I started with simple projects in 2019, using HTML
-                and CSS. Then, I cranked it up a notch, taking on JS, node, express, and react.From snapping pics to
+                and CSS. Then, I cranked it up a notch, taking on JavaScript, NodeJS, ExpressJS, MongoDB and ReactJS. From snapping pics to
                 snapping
                 code, I'm the versatile artist you never knew you needed.</p>
-            <div className="firstbox">
+            <div className="firstbox card-three">
                 <img src={cuevas2Data.src} alt="Trini" width={cuevas2Data.width} height={cuevas2Data.height} />
                 <img src={hornocalData.src} alt="Trini" width={hornocalData.width} height={hornocalData.height} />
                 <img src={llamaData.src} alt="Trini" width={llamaData.width} height={llamaData.height} />
@@ -67,7 +67,7 @@ return (
         </div>
     </div>
     <div className="card four">
-        <div className='box'>
+        <div className='box box-three'>
             <div className="firstbox fourth">
                 <img src={cadizData.src} alt="Trini" width={cadizData.width} height={cadizData.height} />
                 <img src={uruguayData.src} alt="Trini" width={uruguayData.width} height={uruguayData.height} />
